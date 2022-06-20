@@ -1,16 +1,25 @@
 <template>
   <div>
-    <PageTitle></PageTitle>
+    <div class="container text-center py-5">
+      <div class="row">
+        <PageTitle></PageTitle>
+      </div>
+      <div class="row py-5">
+        <JumboTron></JumboTron>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 
 import PageTitle from './components/PageTitle.vue';
+import JumboTron from './components/JumboTron.vue';
 
 export default {
   components: {
     PageTitle,
+    JumboTron,
   }
 }
 </script>
